@@ -1,0 +1,67 @@
+.container-fluid{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+.div_ajuda{
+    margin-top: 10px;
+    position:relative;
+    padding: 15px;
+    border:1px solid #ccc;
+    font-family:"Arial", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    background-color: #ccc;
+}
+.div_original{
+    margin-top: 10px;
+    position:relative;
+    padding: 15px;
+    border:1px solid #ccc;
+    font-family:"Arial", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.div1{
+    margin-top: 10px;
+    position:relative;
+    padding: 15px;
+    border:1px solid #ccc;
+    font-family:"Arial", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.div2{
+    margin-top: 10px;
+    position:relative;
+    padding: 15px;
+    border:1px solid #ccc;
+    font-family:"Arial", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+.div3{
+    margin-top: 10px;
+    position:relative;
+    padding: 15px;
+    border:1px solid #ccc;
+    font-family:"Arial", sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+#btn_mostrar{
+    display: block;
+}
+#btn_esconder{
+    
+}
+#div{
+    display: none;
+}
+
+

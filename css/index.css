@@ -1,0 +1,50 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #485460;
+}
+.vcenter {
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+	color: #f1f1f1;	
+	font-size: 15px;	
+}
+.vcenter a{
+	color: #f1f1f1;
+	font-size: 15px;
+}
+.cabecalho{
+	background-color: #1e272e;
+	height: 80px;
+	padding-top: 5px;
+}
+.rodape{
+	position: absolute;
+	height: 60px;
+	top: 100%;
+	transform: translateY(-100%); 
+	background-color: #1e272e; 
+	padding-top: 5px;
+}	
+.btn{
+	width: 100%;
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	font-size: 18px;		
+}
+.col-md-6{
+	padding-top: 10px;
+	font-size: 15px;
+}
+img{
+	position: absolute;
+	height: 70px;
+}
