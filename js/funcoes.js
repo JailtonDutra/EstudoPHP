@@ -22,7 +22,7 @@ $(document).ready(function(){
 $(document).ready(function () {
     $('#celular1').mask('(00)00000-0000');
     $('#celular2').mask('(00)00000-0000');
-    $('#fixo').mask('(00)0000-0000');
+    $('#tel_fixo').mask('(00)0000-0000');
 });
 
 //função para habilitar o input município depois que o input estado for selecionado
@@ -163,8 +163,6 @@ function formacao2() {
     });
 }
 
-
-
 //função para habilitar o input município depois que o input estado for selecionado
 $('#uf_formacao1').on('change', function () {
     if ($(this).val()) {
@@ -190,8 +188,6 @@ $(document).ready(function () {
     $(add_button).click(function (e) {
         e.preventDefault();
         var length = wrapper.find("input:text.textAdded").length;
-
-        //if (x < max_fields) {
         if (x < 2) {
             x++;
             i++;
@@ -297,6 +293,20 @@ $('#acumulo').on('change', function () {
         $("#lotacao_acumulo").attr('disabled','true');
     }
 });
+//permutado
+$('#permutado').on('change', function () {
+    var cedido = $('#permutado').val();    
+    var estado = 18;
+    if (cedido == estado) {
+        $("#local_origem_permuta").removeAttr('disabled');
+        $("#municipio_permuta").removeAttr('disabled');
+        $("#nome_permutado").removeAttr('disabled');
+    } else {
+        $("#local_origem_permuta").attr('disabled','true');        
+        $("#municipio_permuta").attr('disabled','true');        
+        $("#nome_permutado").attr('disabled','true');        
+    }
+});
 //cedido
 $('#cedido').on('change', function () {
     var cedido = $('#cedido').val();    
@@ -317,33 +327,3 @@ $('#remanejado').on('change', function () {
         $("#local_remanejado").attr('disabled','true');        
     }
 });
-
-
-
-
-/*
-$(document).ready(function () {
-    $('#botao').on('click', function () {
-        var query = '<div id="div1" class="div_ajuda col-lg-12">'+
-                '<label for="">Ola mundo 1</label>'+
-                '<button hidden="" id="btn_Mais_um "class="btn btn-primary" value="esconder">Adicionar+1</button>'+
-                '<button hidden="" id="btn_remover_div1 "class="btn btn-primary" value="esconder">remover div2</button>'+                   
-            '</div>';
-        $('#botao').after(query);
-    });
-});
-*/
-
-
-
-
-
-
-/*
-
-$('#btn_mostrar').on('click',function(){
-    var click == $('#btn_mostrar').val();
-    if(click){
-        
-    }
-});*/

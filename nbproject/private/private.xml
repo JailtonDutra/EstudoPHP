@@ -4,12 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/js/funcoes.js</file>
-            <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/dao/connection.php</file>
+            <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/listarCidades.php</file>
             <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/ajuda2.php</file>
-            <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/dao/processa.php</file>
-            <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/css/ajuda.css</file>
             <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/css/cadastroUsuario.css</file>
+            <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/dao/conexao.php</file>
             <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/ajuda.php</file>
+            <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/index.php</file>
             <file>file:/C:/wamp64/www/MeusProjetos/PhpNetBeans/cadastroUsuario.php</file>
         </group>
     </open-files>

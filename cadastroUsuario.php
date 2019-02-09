@@ -85,7 +85,7 @@
                         <div class="col-xl-3 offset-xl-1">
                             <label for="id_municipios">Município</label>
                             <select id="id_municipios" name="id_municipios" class="text_placeholder form-control" disabled="true">
-                                <option value="">Selcione uma opção</option>
+                                <option value="">Selecione uma opção</option>
                             </select>
                         </div>			
                     </div>
@@ -431,12 +431,12 @@
                             <input id="local_origem_permuta" name="local_origem_permuta" disabled="true" class="text_placeholder form-control"/>
                         </div>
                         <div class="col-xl-2 offset-xl-1">
-                            <label for="local_origem_permuta">Municipio da permuta</label>
+                            <label for="municipio_permuta">Municipio da permuta</label>
                             <input id="municipio_permuta" name="municipio_permuta" disabled="true" class="text_placeholder form-control"/>
                         </div>
                         <div class="col-xl-4 offset-xl-1">
                             <label for="nome_permutado">Nome do permutado</label>                        
-                            <input id="nome_permutado" name="nome_permutado" class="text_placeholder form-control" type="text"/>
+                            <input id="nome_permutado" name="nome_permutado" disabled="true" class="text_placeholder form-control" type="text"/>
                         </div>                                        
                     </div>
                     <div class="row form-group">
@@ -596,39 +596,8 @@
                     </div>
                 </div>
             </form>
-        <div class="container">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
         </div>
-        </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+            
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/jquery.js"></script>
